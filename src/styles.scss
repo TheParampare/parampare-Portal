@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.full-page-container {
+  // height: calc(100vh - 114px);
+  height:100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+app-root {
+  min-height: 100%;
+  // overflow: hidden;
+  display: block;
+  position: relative;
+  background-color: #eee;
+  
+}
+
+.section-header {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.footer-absolute {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-relative {
+  display: block;
+  position: relative;
+  
+  width: 100%;
+}
+
+mdb-card-img {
+  width:200px;
+  height: 200px;
+}
+
+app-welcome {
+  background-color: white;
+}
+
+.featured-card{
+  // width:255px;
+  height:170px;
+}
